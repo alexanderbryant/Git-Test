@@ -14,6 +14,7 @@
 		119872871A9B711E004598DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119872861A9B711E004598DF /* Images.xcassets */; };
 		1198728A1A9B711E004598DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119872881A9B711E004598DF /* LaunchScreen.xib */; };
 		119872961A9B711E004598DF /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 119872951A9B711E004598DF /* Git_TestTests.m */; };
+		119872A11A9B8B17004598DF /* ABTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 119872A01A9B8B17004598DF /* ABTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1198728F1A9B711E004598DF /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		119872941A9B711E004598DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		119872951A9B711E004598DF /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		1198729F1A9B8B17004598DF /* ABTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTest.h; sourceTree = "<group>"; };
+		119872A01A9B8B17004598DF /* ABTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				119872861A9B711E004598DF /* Images.xcassets */,
 				119872881A9B711E004598DF /* LaunchScreen.xib */,
 				119872791A9B711E004598DF /* Supporting Files */,
+				1198729F1A9B8B17004598DF /* ABTest.h */,
+				119872A01A9B8B17004598DF /* ABTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				119872821A9B711E004598DF /* ViewController.m in Sources */,
 				1198727F1A9B711E004598DF /* AppDelegate.m in Sources */,
+				119872A11A9B8B17004598DF /* ABTest.m in Sources */,
 				1198727C1A9B711E004598DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
